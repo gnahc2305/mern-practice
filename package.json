@@ -1,0 +1,29 @@
+{
+  "name": "mern-practice",
+  "version": "1.0.0",
+  "description": "CRUD Application with MERN Stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnahc2305/mern-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnahc2305/mern-practice/issues"
+  },
+  "homepage": "https://github.com/gnahc2305/mern-practice#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
